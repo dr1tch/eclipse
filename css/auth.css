@@ -9,6 +9,13 @@ div.card {
     /*margin-top: -200px;
     color: #fff;*/
     border: none;
+    -webkit-box-shadow: 0 0 50px black;
+     box-shadow: 0 0 50px black;
+    max-width: 380px;
+}
+
+.form-check-input{
+    
 }
 
 .login-btn, .login-btn:hover {
@@ -18,13 +25,25 @@ div.card {
 }
 
 .createAccount {
-    /*margin: auto;*/
+    text-align: center;
+    margin: auto;
     font-size: 15px;
-    padding: 0;
+    padding: 5px 0;
+    min-width: 300px;
+    min-height: 35px;
 }
+
+
+/* ==============Media Queries=========== */
 
 @media screen and (max-width: 994px){
     div.card {
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 769px){
+    form {
+        text-align: left;
     }
 }
