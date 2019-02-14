@@ -1,0 +1,30 @@
+body {
+    background-color: #17202A;
+}
+
+
+div.card {
+    background-color: #fff;
+    backface-visibility: hidden;
+    /*margin-top: -200px;
+    color: #fff;*/
+    border: none;
+}
+
+.login-btn, .login-btn:hover {
+    background-color: #8d33f6;
+    color: #fff;
+    border: 1px #8d33f6 solid;
+}
+
+.createAccount {
+    /*margin: auto;*/
+    font-size: 15px;
+    padding: 0;
+}
+
+@media screen and (max-width: 994px){
+    div.card {
+        margin: auto;
+    }
+}
