@@ -1,13 +1,17 @@
 body {
-    background-color: #17202A;
+    background-color: #AFAFFF;
+}
+
+.img-logo{
+    width: 100px;
+    height: 100px;
 }
 
 
 div.card {
-    background-color: #fff;
+    background-color: #111;
     backface-visibility: hidden;
-    /*margin-top: -200px;
-    color: #fff;*/
+    color: #fff;
     border: none;
     -webkit-box-shadow: 0 0 50px black;
      box-shadow: 0 0 50px black;
