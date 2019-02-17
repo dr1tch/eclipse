@@ -1,13 +1,18 @@
+body {
+    background-color: #111;
+}
+
+
 div.card-3 {
     width: 100%;
 ----------------------------------
-    /*background: #8360c3; /* fallback for old browsers */
-  /*background: -webkit-linear-gradient(to top, #8360c3, #2ebf91); /* Chrome 10-25, Safari 5.1-6 */
-  /*background: linear-gradient(to top, #8360c3, #2ebf91); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #8360c3, #2ebf91); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #8360c3, #2ebf91); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 -----------------------------------
-    background: #544a7d;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* background: #544a7d;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 -----------------------------------
     /*background: #BA8B02;  /* fallback for old browsers */
 /*background: -webkit-linear-gradient(to bottom, #181818, #BA8B02);  /* Chrome 10-25, Safari 5.1-6 */
@@ -18,8 +23,25 @@ background: linear-gradient(to left, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Fi
     display: table;
 }
 
+.head-display {
+    display: block;
+}
+
+.fs-title {
+   text-align: left;
+}
+
+.mrg-bot {
+    margin-bottom: -20px;
+}
+
+.txt-align {
+    margin: auto;
+}
+
 .card {
     overflow: hidden;
+    border: none;
 }
 
 .title {
@@ -45,9 +67,9 @@ input.form-control {
 }
 
 .card-3 .card-heading {
-    background: url("../img/bg-2-img-left-side.jpg") top left/cover no-repeat;
+    background: url("../img/bg-image-left-side.jpg") top left/cover no-repeat;
     display: table-cell;
-    width: 40%;
+    width: 45%;
 }
 
 .card-3 .card-body {
@@ -88,6 +110,7 @@ padding-top: 180px;
     width: 100%;
     padding-top: 400px;
     background-position: center center;
+    display: none;
 }
     
     .card-3 .card-body {
